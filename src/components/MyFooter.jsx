@@ -1,10 +1,10 @@
 import React from 'react'
 import { Footer } from "flowbite-react";
-import {  BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
+import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
 
 const MyFooter = () => {
   return (
-<Footer container>
+    <Footer container>
       <div className="w-full">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
@@ -19,15 +19,15 @@ const MyFooter = () => {
             <div>
               <Footer.Title title="about" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">All rights reserved</Footer.Link>
-                <Footer.Link href="#">Office</Footer.Link>
+                <Footer.Link href="https://github.com/Himanshu-kiran">Github</Footer.Link>
+                <Footer.Link href="https://www.linkedin.com/in/himanshu-kiran-378308294/">Linkedin</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
               <Footer.Title title="Follow us" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Github</Footer.Link>
                 <Footer.Link href="#">Discord</Footer.Link>
+                <Footer.Link href="#">All rights reserved</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
@@ -50,7 +50,7 @@ const MyFooter = () => {
           </div>
         </div>
       </div>
-    </Footer>  )
+    </Footer>)
 }
 
 export default MyFooter
