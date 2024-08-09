@@ -25,7 +25,7 @@ const Products = () => {
             {/*   company stats */}
             <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto bg-neutralSilver py-16'>
                 <div className='flex flex-col md:flex-row justify-between items-center gap-8'>
-                    <div className='w-30 h-40' ></div>
+                    <div className='' ></div>
                     <img src={menaces} alt="" />
 
                     {/* stats */}
